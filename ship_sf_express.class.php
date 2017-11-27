@@ -97,6 +97,15 @@ class ship_sf_express extends shipping_abstract
     }
     
     /**
+     * 返回快递单打印背景图片
+     * @return NULL|string
+     */
+    public function printBcakgroundImage()
+    {
+        return $this->config['print_bg'];
+    }
+    
+    /**
      * 获取插件配置信息
      */
     public function configure_config() {

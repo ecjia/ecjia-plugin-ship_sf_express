@@ -76,6 +76,11 @@ class plugin_ship_sf_express {
     }
 }
 
+Ecjia_PluginManager::extend('ship_sf_express', function() {
+    require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_sf_express.class.php';
+    return new ship_sf_express();
+});
+
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_sf_express', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_sf_express', 'uninstall'));
 RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_sf_express', 'adapter_instance' ), 10, 2);

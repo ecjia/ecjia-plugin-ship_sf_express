@@ -102,7 +102,7 @@ class ship_sf_express extends ShippingAbstract
      */
     public function printBcakgroundImage()
     {
-        return $this->config['print_bg'];
+        
     }
     
      /**

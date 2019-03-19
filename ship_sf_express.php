@@ -46,7 +46,7 @@
 //
 /*
 Plugin Name: 顺丰速运
-Plugin URI: http://www.ecjia.com/plugins/ecjia.sf_express/
+Plugin URI: http://www.ecjia.com/plugins/ecjia.ship_sf_express/
 Description: 江、浙、沪地区首重15元/KG，续重2元/KG，其余城市首重20元/KG
 Author: ECJIA TEAM
 Version: 2.0.0

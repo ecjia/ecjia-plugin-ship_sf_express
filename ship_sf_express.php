@@ -80,6 +80,7 @@ class plugin_ship_sf_express {
 }
 
 Ecjia_PluginManager::extend('ship_sf_express', function() {
+    RC_Locale::loadPluginTextdomain('ship_sf_express');
     require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_sf_express.class.php';
     return new ship_sf_express();
 });

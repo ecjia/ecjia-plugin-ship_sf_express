@@ -14,7 +14,7 @@
                             <tr>
                                 <td valign="middle" style="width:5cm; height:0.8cm;">{$shop_name}</td>
                                 <td valign="middle">&nbsp;</td>
-                                <td valign="middle" style="width:1.8cm; height:0.8cm;">{$order.order_sn}</td>
+                                <td valign="middle" style="width:1.8cm; height:0.8cm;">{$order_no}</td>
                             </tr>
                         </table>
                     </td>
@@ -24,9 +24,9 @@
                     <td class="h">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr>
-                                <td style="width:1.3cm; height:0.8cm;">{$province}</td>
+                                <td style="width:1.3cm; height:0.8cm;">{$shop_province}</td>
                                 <td>&nbsp;</td>
-                                <td style="width:1.3cm; height:0.8cm;">{$city}</td>
+                                <td style="width:1.3cm; height:0.8cm;">{$shop_city}</td>
                                 <td>&nbsp;</td>
                                 <td style="width:1.3cm; height:0.8cm;">&nbsp;</td>
                                 <td>&nbsp;</td>
@@ -52,7 +52,7 @@
                                 <td>&nbsp;</td>
                                 <td style="width:1.5cm; height:0.8cm;">&nbsp;</td>
                                 <td>&nbsp;</td>
-                                <td style="width:3.5cm; height:0.8cm;">{$service_phone}</td>
+                                <td style="width:3.5cm; height:0.8cm;">{$shop_tel}</td>
                             </tr>
                         </table>
                     </td>
@@ -66,7 +66,7 @@
                     <td width="85%">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr>
-                                <td valign="middle" style="width:5cm; height:0.8cm;">{$order.consignee}</td>
+                                <td valign="middle" style="width:5cm; height:0.8cm;">{$customer_name}</td>
                                 <td valign="middle">&nbsp;</td>
                                 <td valign="middle" style="width:1.8cm; height:0.8cm;">&nbsp;</td>
                             </tr>
@@ -75,11 +75,11 @@
                 </tr>
                 <tr valign="middle">
                     <td>&nbsp;</td>
-                    <td class="h">{$order.region}</td>
+                    <td class="h">{$customer_district}</td>
                 </tr>
                 <tr valign="middle">
                     <td>&nbsp;</td>
-                    <td class="h">{$order.address}</td>
+                    <td class="h">{$customer_address}</td>
                 </tr>
                 <tr valign="middle">
                     <td>&nbsp;</td>
@@ -93,7 +93,7 @@
                                 <td style="width:1.7cm;">&nbsp;</td>
                                 <td style="width:1.5cm; height:0.8cm;">&nbsp;</td>
                                 <td style="width:1.7cm;">&nbsp;</td>
-                                <td style="width:3.5cm; height:0.8cm;">{$order.tel}</td>
+                                <td style="width:3.5cm; height:0.8cm;">{$customer_mobel}</td>
                             </tr>
                         </table>
                     </td>

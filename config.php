@@ -53,18 +53,34 @@ return array(
     'print_support' => true,
 	'print_model'	=> 2,			/* 模式编辑器 */
 	'print_bg'		=> 'images/dly_sf_express.jpg',			/* 打印单背景 */
-// 	'config_lable'	=> 't_shop_name,shop_name,150,29,112,137,b_shop_name||,||t_shop_address,shop_address,268,55,105,168,b_shop_address||,||t_shop_tel,shop_tel,55,25,177,224,b_shop_tel||,||t_customer_name,customer_name,78,23,299,265,b_customer_name||,||t_customer_address,customer_address,271,94,104,293,b_customer_address||,||',			/* 打印快递单标签位置信息 */
 		
 	/**
 	 * 打印快递单标签位置信息
 	 * 使用 ||,|| 合并连接
 	 */
+
 	'config_lable'  => array(
-		't_shop_name,shop_name,150,29,112,137,b_shop_name',
-		't_shop_address,shop_address,268,55,105,168,b_shop_address',
-		't_shop_tel,shop_tel,55,25,177,224,b_shop_tel',
-		't_customer_name,customer_name,78,23,299,265,b_customer_name',
-		't_customer_address,customer_address,271,94,104,293,b_customer_address',
+		't_shop_name,shop_name,167,29,121,169,b_shop_name',
+		't_shop_address,shop_address,230,27,179,229,b_shop_address',
+		't_shop_tel,shop_tel,159,23,201,263,b_shop_tel',
+		't_customer_name,customer_name,78,23,331,309,b_customer_name',
+		't_customer_address,customer_address,228,36,183,361,b_customer_address',
+		't_customer_mobel,customer_mobel,189,21,218,434,b_customer_mobel',
+		't_customer_country,customer_country,60,21,120,337,b_customer_country',
+		't_customer_province,customer_province,70,21,180,337,b_customer_province',
+		't_customer_city,customer_city,71,21,250,337,b_customer_city',
+		't_customer_street,customer_street,101,36,81,361,b_customer_street',
+		't_shop_street,shop_street,97,27,81,229,b_shop_street',
+		't_shop_country,shop_country,57,27,121,200,b_shop_country',
+		't_shop_city,shop_city,70,27,256,200,b_shop_city',
+		't_shop_province,shop_province,78,27,178,200,b_shop_province',
+		't_shop_district,shop_district,82,27,327,200,b_shop_district',
+		't_customer_district,customer_district,89,21,322,337,b_customer_district',
+		't_customer_tel,customer_tel,190,21,218,412,b_customer_tel',
+		't_order_postscript,order_postscript,205,47,643,541,b_order_postscript',
+		't_order_best_time,order_best_time,143,21,706,524,b_order_best_time',
+		't_months,months,37,21,661,400,b_months',
+		't_day,day,36,21,709,401,b_day',
 		''
 	),
 		
